@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | FarmTeens Uganda</title>
+  <meta name="description" content="Contact FarmTeens Uganda for inquiries, partnerships, or support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <div class="nav-dock" aria-label="Navigation dock">
+        <div class="dock-left">
+          <a class="brand" href="index.html">
+            <img src="images/logo.png" alt="FarmTeens Uganda logo" />
+            <div>
+              <span class="brand-title">FARMTEENS UGANDA</span>
+              <span class="brand-tag">Teens Driving Change</span>
+            </div>
+          </a>
+        </div>
+
+        <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+          <a class="nav-link" href="index.html" aria-label="Home">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 10.5L12 3l9 7.5V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10.5z" />
+                <path d="M9 21V12h6v9" />
+              </svg>
+            </span>
+            <span>Home</span>
+          </a>
+
+          <a class="nav-link" href="about.html" aria-label="About Us">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="3.2" />
+                <path d="M5.5 21c.9-3.5 4.1-6 6.5-6s5.6 2.5 6.5 6" />
+              </svg>
+            </span>
+            <span>About Us</span>
+          </a>
+
+          <a class="nav-link" href="programs.html" aria-label="Programs">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 4h14v16H5z" />
+                <path d="M5 8h14" />
+                <path d="M8 4v16" />
+              </svg>
+            </span>
+            <span>Programs</span>
+          </a>
+
+          <a class="nav-link" href="products.html" aria-label="Products">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 7h12l-1.2 11H7.2L6 7z" />
+                <path d="M9 7V5a3 3 0 0 1 6 0v2" />
+              </svg>
+            </span>
+            <span>Products</span>
+          </a>
+
+          <a class="nav-link" href="partners.html" aria-label="Partners">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 12h6" />
+                <path d="M14 12h6" />
+                <path d="M6 8l2.5 2.5" />
+                <path d="M11.5 13.5L14 11" />
+                <path d="M11 16l2-2" />
+                <path d="M16 12l2.5-2.5" />
+              </svg>
+            </span>
+            <span>Partners</span>
+          </a>
+
+          <a class="nav-link" href="contact.html" aria-label="Contact">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6h16v12H4z" />
+                <path d="M4 6l8 7 8-7" />
+              </svg>
+            </span>
+            <span>Contact</span>
+          </a>
+        </nav>
+
+        <div class="dock-right">
+          <div class="header-actions">
+            <a class="btn btn-primary btn-hero btn-ripple" href="index.html#join">Join FarmTeens</a>
+            <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero contact-hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner container">
+        <div class="hero-copy animate fade-up">
+          <h1>Contact Us</h1>
+          <p>We’d love to hear from you. Reach out to us for inquiries, partnerships, or any support you need.</p>
+          <p class="breadcrumb"><a href="index.html">Home</a> › Contact</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid animate fade-up">
+        <div class="contact-card contact-form-card">
+          <span class="eyebrow">Send Us a Message</span>
+          <h2>Have a question or want to work with us?</h2>
+          <p>Fill out the form below and we’ll get back to you shortly.</p>
+          <form class="contact-form" action="#" method="post">
+            <label class="sr-only" for="name">Your Name</label>
+            <input id="name" type="text" placeholder="Your Name" required />
+
+            <label class="sr-only" for="email">Your Email</label>
+            <input id="email" type="email" placeholder="Your Email" required />
+
+            <label class="sr-only" for="phone">Phone Number</label>
+            <input id="phone" type="tel" placeholder="Phone Number" />
+
+            <label class="sr-only" for="subject">Subject</label>
+            <input id="subject" type="text" placeholder="Subject" />
+
+            <label class="sr-only" for="message">Your Message</label>
+            <textarea id="message" rows="6" placeholder="Your Message"></textarea>
+
+            <button class="btn btn-primary btn-submit" type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <aside class="contact-card contact-details-card">
+          <span class="eyebrow">Get In Touch</span>
+          <h2>We’re here to help and collaborate.</h2>
+          <div class="details-list">
+            <div class="detail-row">
+              <span class="detail-icon">📞</span>
+              <div>
+                <strong>Call Us</strong>
+                <p>+256 123 456 789</p>
+              </div>
+            </div>
+            <div class="detail-row">
+              <span class="detail-icon">✉️</span>
+              <div>
+                <strong>Email Us</strong>
+                <p>info@farmteensug.com</p>
+              </div>
+            </div>
+            <div class="detail-row">
+              <span class="detail-icon">📍</span>
+              <div>
+                <strong>Visit Us</strong>
+                <p>Kampala, Uganda<br />Plot 123, Green Way,<br />Nakubulaye, Kampala</p>
+              </div>
+            </div>
+            <div class="detail-row">
+              <span class="detail-icon">🕒</span>
+              <div>
+                <strong>Office Hours</strong>
+                <p>Monday – Friday: 8:00 AM – 5:00 PM<br />Saturday: 9:00 AM – 1:00 PM<br />Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="map-section animate fade-up">
+      <div class="container map-panel">
+        <div class="map-frame">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0087402163684!2d32.563152175085424!3d0.32247333238450454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbd745c996d91%3A0xf97e7b6527da459c!2sKampala%2C%20Uganda!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" loading="lazy" aria-hidden="false" tabindex="0"></iframe>
+          <div class="map-card">
+            <span>FarmTeens Uganda (PTY) LTD</span>
+            <p>Plot 123, Green Way, Nakubulaye, Kampala, Uganda</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="other-ways-section animate fade-up">
+      <div class="container section-header">
+        <span class="eyebrow">Other Ways to Reach Us</span>
+        <h2>Connect with us on social channels and messaging platforms.</h2>
+      </div>
+      <div class="container contact-links-grid">
+        <a class="contact-link" href="#">
+          <span class="link-icon">💬</span>
+          <div>
+            <strong>WhatsApp</strong>
+            <p>+256 123 456 789</p>
+          </div>
+        </a>
+        <a class="contact-link" href="#">
+          <span class="link-icon">📘</span>
+          <div>
+            <strong>Facebook</strong>
+            <p>FarmTeens Uganda</p>
+          </div>
+        </a>
+        <a class="contact-link" href="#">
+          <span class="link-icon">📸</span>
+          <div>
+            <strong>Instagram</strong>
+            <p>@farmteensug</p>
+          </div>
+        </a>
+        <a class="contact-link" href="#">
+          <span class="link-icon">🔗</span>
+          <div>
+            <strong>LinkedIn</strong>
+            <p>FarmTeens Uganda (PTY) LTD</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta-section contact-cta animate fade-up">
+      <div class="cta-overlay"></div>
+      <div class="container cta-panel">
+        <div>
+          <span class="eyebrow">Let’s build a better tomorrow, together.</span>
+          <h2>Whether you have questions, ideas, or want to partner with us, we are ready to connect and create lasting impact.</h2>
+        </div>
+        <a class="btn btn-cta-yellow" href="index.html#join">Join FarmTeens</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="FarmTeens Uganda logo" />
+        <p>Empowering youth through agriculture while enriching communities across Uganda.</p>
+        <p>Building a sustainable future with young leaders and responsible farming.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Programs</a>
+        <a href="products.html">Products</a>
+        <a href="partners.html">Partners</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h3>Programs</h3>
+        <a href="programs.html">Agriculture Training</a>
+        <a href="programs.html">Youth Empowerment</a>
+        <a href="programs.html">Sustainability Initiatives</a>
+        <a href="programs.html">Community Outreach</a>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p><span>📞</span>+256 123 456 789</p>
+        <p><span>✉️</span>info@farmteensug.com</p>
+        <p><span>📍</span>Kampala, Uganda</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">Fb</a>
+          <a href="#" aria-label="Instagram">Ig</a>
+          <a href="#" aria-label="WhatsApp">Wa</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 FarmTeens Uganda (PTY) LTD. All rights reserved.</p>
+      <p class="design-note">Designed with <span class="heart">♥</span> for a better tomorrow.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

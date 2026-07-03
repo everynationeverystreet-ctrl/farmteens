@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | FarmTeens Uganda</title>
+  <meta name="description" content="FarmTeens Uganda premium products page featuring vanilla, coffee, poultry, and sustainable agricultural solutions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <div class="nav-dock" aria-label="Navigation dock">
+        <div class="dock-left">
+          <a class="brand" href="index.html">
+            <img src="images/logo.png" alt="FarmTeens Uganda logo" />
+            <div>
+              <span class="brand-title">FARMTEENS UGANDA</span>
+              <span class="brand-tag">Teens Driving Change</span>
+            </div>
+          </a>
+        </div>
+
+        <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+          <a class="nav-link" href="index.html" aria-label="Home">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 10.5L12 3l9 7.5V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10.5z" />
+                <path d="M9 21V12h6v9" />
+              </svg>
+            </span>
+            <span>Home</span>
+          </a>
+
+          <a class="nav-link" href="about.html" aria-label="About Us">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="3.2" />
+                <path d="M5.5 21c.9-3.5 4.1-6 6.5-6s5.6 2.5 6.5 6" />
+              </svg>
+            </span>
+            <span>About Us</span>
+          </a>
+
+          <a class="nav-link" href="programs.html" aria-label="Programs">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 4h14v16H5z" />
+                <path d="M5 8h14" />
+                <path d="M8 4v16" />
+              </svg>
+            </span>
+            <span>Programs</span>
+          </a>
+
+          <a class="nav-link" href="products.html" aria-label="Products">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 7h12l-1.2 11H7.2L6 7z" />
+                <path d="M9 7V5a3 3 0 0 1 6 0v2" />
+              </svg>
+            </span>
+            <span>Products</span>
+          </a>
+
+          <a class="nav-link" href="partners.html" aria-label="Partners">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 12h6" />
+                <path d="M14 12h6" />
+                <path d="M6 8l2.5 2.5" />
+                <path d="M11.5 13.5L14 11" />
+                <path d="M11 16l2-2" />
+                <path d="M16 12l2.5-2.5" />
+              </svg>
+            </span>
+            <span>Partners</span>
+          </a>
+
+          <a class="nav-link" href="contact.html" aria-label="Contact">
+            <span class="nav-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6h16v12H4z" />
+                <path d="M4 6l8 7 8-7" />
+              </svg>
+            </span>
+            <span>Contact</span>
+          </a>
+        </nav>
+
+        <div class="dock-right">
+          <div class="header-actions">
+            <a class="btn btn-primary btn-hero btn-ripple" href="index.html#join">Join FarmTeens</a>
+            <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero products-hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner container">
+        <div class="hero-copy animate fade-up">
+          <span class="eyebrow">Our Products</span>
+          <h1>Pure. Natural. <span class="accent-gold">Purposeful.</span></h1>
+          <p>From our farms to your homes, our products are a reflection of care, patience, and integrity. Good for you. Good for the planet.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-ripple" href="#product-offerings">View Products</a>
+            <a class="btn btn-secondary btn-ripple" href="#digital-solutions">Digital Solutions</a>
+          </div>
+        </div>
+        <div class="hero-visual animate scale">
+          <img src="images/products.png" alt="Farm products" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="light-section" id="product-benefits">
+      <div class="container product-benefits animate fade-up">
+        <div class="benefit-card"><span class="benefit-icon">🌿</span><p>Naturally Sourced</p></div>
+        <div class="benefit-card"><span class="benefit-icon">♻️</span><p>Sustainably Produced</p></div>
+        <div class="benefit-card"><span class="benefit-icon">👥</span><p>Empowering Communities</p></div>
+        <div class="benefit-card"><span class="benefit-icon">✔️</span><p>Quality You Can Trust</p></div>
+        <div class="benefit-card"><span class="benefit-icon">🌍</span><p>Good for You. Good for the Planet.</p></div>
+      </div>
+    </section>
+
+    <section class="products-section" id="product-offerings">
+      <div class="container section-header animate fade-up">
+        <span class="eyebrow">Our Product Range</span>
+        <h2>Quality Products. <span class="accent-green">Real Impact.</span></h2>
+      </div>
+
+      <div class="container product-grid animate fade-up">
+        <article class="product-card">
+          <span class="product-card-badge">Featured</span>
+          <img src="images/about-us.png" alt="Vanilla product" loading="lazy" />
+          <div class="product-body">
+            <h3>Vanilla</h3>
+            <p>Our signature product. Hand-polinated and sun-dried vanilla beans with rich aroma and exceptional quality.</p>
+            <div class="product-tags">
+              <span>100% Natural</span>
+              <span>Premium Grade</span>
+              <span>Export Quality</span>
+            </div>
+            <a class="btn btn-primary" href="#">View Vanilla Products</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="images/hero.png" alt="Coffee product" loading="lazy" />
+          <div class="product-body">
+            <h3>Coffee</h3>
+            <p>Sustainably grown coffee beans with rich flavor and aroma, supporting local farmers and communities.</p>
+            <div class="product-tags">
+              <span>Arabica Beans</span>
+              <span>Handpicked</span>
+              <span>Sustainably Grown</span>
+            </div>
+            <a class="btn btn-primary" href="#">View Coffee Products</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="images/partners.png" alt="Poultry product" loading="lazy" />
+          <div class="product-body">
+            <h3>Poultry</h3>
+            <p>Healthy, well-raised poultry for nutritious food and sustainable livelihoods.</p>
+            <div class="product-tags">
+              <span>Healthy Stock</span>
+              <span>Quality Feed</span>
+              <span>Farm Fresh</span>
+            </div>
+            <a class="btn btn-primary" href="#">View Poultry Products</a>
+          </div>
+        </article>
+
+        <article class="product-card wide">
+          <img src="images/programs.png" alt="Goat products" loading="lazy" />
+          <div class="product-body">
+            <h3>Goats</h3>
+            <p>Strong, healthy goats for meat production and sustainable farming, raised with careful animal welfare practices.</p>
+            <div class="product-tags">
+              <span>Healthy Breeds</span>
+              <span>Well Managed</span>
+              <span>Sustainable</span>
+            </div>
+            <a class="btn btn-primary" href="#">View Goat Products</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="light-section" id="digital-solutions">
+      <div class="container section-header animate fade-up">
+        <span class="eyebrow">Digital Solutions</span>
+        <h2>Smart Tools to Help Farmers and Agribusinesses Grow Better.</h2>
+      </div>
+      <div class="container digital-grid animate fade-up">
+        <div class="digital-card">
+          <span class="eyebrow">Digital Market</span>
+          <h3>Digital Market Software</h3>
+          <p>Connect farmers to markets, manage orders, and track performance with a single platform built for growth.</p>
+          <ul class="digital-features">
+            <li><span class="feature-bullet">✓</span> Market access</li>
+            <li><span class="feature-bullet">✓</span> Order management</li>
+            <li><span class="feature-bullet">✓</span> Revenue visibility</li>
+            <li><span class="feature-bullet">✓</span> Better traceability</li>
+          </ul>
+          <a class="btn btn-primary" href="#">Explore Digital Market</a>
+        </div>
+        <div class="digital-card">
+          <span class="eyebrow">Farm Management</span>
+          <h3>Farm Management Software</h3>
+          <p>All-in-one farm management solution to plant, track, and grow your farm efficiently.</p>
+          <ul class="digital-features">
+            <li><span class="feature-bullet">✓</span> Record keeping</li>
+            <li><span class="feature-bullet">✓</span> Inventory management</li>
+            <li><span class="feature-bullet">✓</span> Productivity tracking</li>
+            <li><span class="feature-bullet">✓</span> Farm analytics</li>
+          </ul>
+          <a class="btn btn-primary" href="#">Explore Farm Management</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-footer-cta cta-section dark-cta animate fade-up">
+      <div class="cta-overlay"></div>
+      <div class="container cta-panel">
+        <div>
+          <span class="eyebrow">Every purchase supports youth empowerment.</span>
+          <h2>Purchase with Purpose <span class="accent-gold">and Grow Community Impact.</span></h2>
+          <p>Every purchase supports youth empowerment, sustainable farming, and stronger communities.</p>
+        </div>
+        <a class="btn btn-cta-yellow" href="index.html#join">Shop Our Products</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="FarmTeens Uganda logo" />
+        <p>Empowering youth through agriculture while enriching communities across Uganda.</p>
+        <p>Building a sustainable future with young leaders and responsible farming.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Programs</a>
+        <a href="products.html">Products</a>
+        <a href="partners.html">Partners</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h3>Programs</h3>
+        <a href="programs.html">Agriculture Training</a>
+        <a href="programs.html">Youth Empowerment</a>
+        <a href="programs.html">Sustainability Initiatives</a>
+        <a href="programs.html">Community Outreach</a>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p><span>📞</span>+256 123 456 789</p>
+        <p><span>✉️</span>info@farmteensug.com</p>
+        <p><span>📍</span>Kampala, Uganda</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">Fb</a>
+          <a href="#" aria-label="Instagram">Ig</a>
+          <a href="#" aria-label="WhatsApp">Wa</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 FarmTeens Uganda (PTY) LTD. All rights reserved.</p>
+      <p class="design-note">Designed with <span class="heart">♥</span> for a better tomorrow.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
